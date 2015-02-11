@@ -1,0 +1,4 @@
+src/app/locale/de_DE/*.csv                                              app/locale/de_DE/
+src/app/locale/en_US/*.csv                                              app/locale/en_US/
+src/app/etc/modules/*.xml                                               app/etc/modules/
+src/app/code/community/MageProfis/RemoveRegisteredConfirmationMail      app/code/community/MageProfis/RemoveRegisteredConfirmationMail

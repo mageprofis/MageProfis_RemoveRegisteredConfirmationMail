@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <customer>
+            <groups>
+                <create_account>
+                    <fields>
+                        <send_registered_mail translate="label comment" module="removeregisteredconfirmationmail">
+                            <label>Can Send Registered Confirmation</label>
+                            <comment>Disable welcome E-Mail when Double-Opt-In is not activated</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>88</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </send_registered_mail>
+                        <send_confirmed_mail translate="label comment" module="removeregisteredconfirmationmail">
+                            <label>Can Send Confirmed Confirmation</label>
+                            <comment>Disable welcome E-Mail when Double-Opt-In is activated</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>89</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </send_confirmed_mail>
+                    <fields>
+                </create_account>
+            </groups>
+        </customers>
+    </sections>
+</config>
