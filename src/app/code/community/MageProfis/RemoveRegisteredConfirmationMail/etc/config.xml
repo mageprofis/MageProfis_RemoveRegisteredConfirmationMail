@@ -31,11 +31,11 @@
         </translate>
     </adminhtml>
     <default>
-        <customers>
+        <customer>
             <create_account>
                 <send_registered_mail>1</send_registered_mail>
                 <send_confirmed_mail>1</send_confirmed_mail>
             </create_account>
-        </customers>
+        </customer>
     </default>
 </config>
