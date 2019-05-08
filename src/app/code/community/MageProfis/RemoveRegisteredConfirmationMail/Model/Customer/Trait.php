@@ -13,7 +13,7 @@ trait MageProfis_RemoveRegisteredConfirmationMail_Model_Customer_Trait
      * @throws Mage_Core_Exception
      * @return Mage_Customer_Model_Customer
      */
-    public function sendNewAccountEmail($type = 'registered', $backUrl = '', $storeId = '0')
+    public function sendNewAccountEmail($type = 'registered', $backUrl = '', $storeId = '0', $password = null)
     {
         if (!$storeId)
         {
@@ -27,6 +27,6 @@ trait MageProfis_RemoveRegisteredConfirmationMail_Model_Customer_Trait
         {
             return $this;
         }
-        return parent::sendNewAccountEmail($type, $backUrl, $storeId);
+        return parent::sendNewAccountEmail($type, $backUrl, $storeId, $password);
     }
 }
